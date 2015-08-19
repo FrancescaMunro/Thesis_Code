@@ -514,13 +514,12 @@ for(i in 1:length(vdre))vdre.probes[[i]]<-names(sym)[sym==vdre[i]]
 
 names(vdre.probes)<-vdre 
 allVDREprobes<-unlist(vdre.probes) # 5958 
-kpComb<-intersect(allVDREprobes,rownames(mat.rma))   
-length(kpComb) # 5851 
-
-datET1_Comb<-na.omit(mat.rma[match(kpComb,rownames(mat.rma)),])
 
 sum(unlist(lapply(allVDREprobes,length))>1) # 0
 sum(unlist(lapply(allVDREprobes,length))==1) # 5958
+
+kpComb<-intersect(allVDREprobes,rownames(mat.rma))   
+length(kpComb) # 5851 
 
 ##differentially expressed VDRE genes in normal tissue between grps
 datVDRE<-na.omit(normTT[match(vdre,rownames(normTT)),])
