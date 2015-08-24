@@ -5,26 +5,40 @@ locale:
 [1] en_NZ.UTF-8/en_NZ.UTF-8/en_NZ.UTF-8/C/en_NZ.UTF-8/en_NZ.UTF-8
 
 attached base packages:
-[1] splines   parallel  stats     graphics  grDevices utils     datasets  methods   base     
+[1] parallel  stats     graphics  grDevices utils     datasets  methods  
+[8] base     
 
 other attached packages:
- [1] survival_2.37-7            knitr_1.10.5               GO.db_2.14.0               KEGG.db_2.14.0            
- [5] safe_3.4.0                 SparseM_1.6                multtest_2.20.0            org.Hs.eg.db_2.14.0       
- [9] RSQLite_1.0.0              DBI_0.3.1                  AnnotationDbi_1.26.1       GenomeInfoDb_1.0.2        
-[13] gplots_2.17.0              gtools_3.4.2               WGCNA_1.42                 fastcluster_1.1.15        
-[17] dynamicTreeCut_1.62        primeviewcdf_2.14.0        arrayQualityMetrics_3.20.0 BiocInstaller_1.14.3      
-[21] limma_3.20.9               affy_1.42.3                Biobase_2.24.0             BiocGenerics_0.10.0       
+ [1] colorRamps_2.3             GO.db_2.14.0              
+ [3] KEGG.db_2.14.0             safe_3.4.0                
+ [5] SparseM_1.6                multtest_2.20.0           
+ [7] org.Hs.eg.db_2.14.0        RSQLite_1.0.0             
+ [9] DBI_0.3.1                  AnnotationDbi_1.26.1      
+[11] GenomeInfoDb_1.0.2         gplots_2.17.0             
+[13] gtools_3.4.2               WGCNA_1.42                
+[15] fastcluster_1.1.15         dynamicTreeCut_1.62       
+[17] primeviewcdf_2.14.0        arrayQualityMetrics_3.20.0
+[19] BiocInstaller_1.14.3       limma_3.20.9              
+[21] affy_1.42.3                Biobase_2.24.0            
+[23] BiocGenerics_0.10.0       
 
 loaded via a namespace (and not attached):
- [1] acepack_1.3-3.3       affyio_1.32.0         affyPLM_1.40.1        annotate_1.42.1       base64_1.1           
- [6] beadarray_2.14.1      BeadDataPackR_1.16.0  Biostrings_2.32.1     bitops_1.0-6          Cairo_1.5-5          
-[11] caTools_1.17.1        cluster_1.15.3        codetools_0.2-10      colorspace_1.2-4      doParallel_1.0.8     
-[16] foreach_1.4.2         foreign_0.8-62        formatR_1.0           Formula_1.2-0         gcrma_2.36.0         
-[21] gdata_2.13.3          genefilter_1.46.1     GenomicRanges_1.16.4  grid_3.1.2            gridSVG_1.4-3        
-[26] highr_0.4             Hmisc_3.14-6          hwriter_1.3.2         illuminaio_0.6.1      impute_1.38.1        
-[31] IRanges_1.22.10       iterators_1.0.7       KernSmooth_2.23-13    lattice_0.20-29       latticeExtra_0.6-26  
-[36] MASS_7.3-37           matrixStats_0.13.1    nnet_7.3-8            plyr_1.8.1            preprocessCore_1.26.1
-[41] R.methodsS3_1.6.1     RColorBrewer_1.1-2    Rcpp_0.11.4           reshape_0.8.5         reshape2_1.4.1       
-[46] RJSONIO_1.3-0         rpart_4.1-8           setRNG_2013.9-1       stats4_3.1.2          stringr_0.6.2        
-[51] SVGAnnotation_0.93-1  tools_3.1.2           vsn_3.32.0            XML_3.98-1.1          xtable_1.7-4         
-[56] XVector_0.4.0         zlibbioc_1.10.0      
+ [1] acepack_1.3-3.3       affyio_1.32.0         affyPLM_1.40.1       
+ [4] annotate_1.42.1       base64_1.1            beadarray_2.14.1     
+ [7] BeadDataPackR_1.16.0  Biostrings_2.32.1     bitops_1.0-6         
+[10] Cairo_1.5-5           caTools_1.17.1        cluster_1.15.3       
+[13] codetools_0.2-10      colorspace_1.2-4      doParallel_1.0.8     
+[16] foreach_1.4.2         foreign_0.8-62        Formula_1.2-0        
+[19] gcrma_2.36.0          gdata_2.13.3          genefilter_1.46.1    
+[22] GenomicRanges_1.16.4  grid_3.1.2            gridSVG_1.4-3        
+[25] Hmisc_3.14-6          hwriter_1.3.2         illuminaio_0.6.1     
+[28] impute_1.38.1         IRanges_1.22.10       iterators_1.0.7      
+[31] KernSmooth_2.23-13    lattice_0.20-29       latticeExtra_0.6-26  
+[34] MASS_7.3-37           matrixStats_0.13.1    nnet_7.3-8           
+[37] plyr_1.8.1            preprocessCore_1.26.1 R.methodsS3_1.6.1    
+[40] RColorBrewer_1.1-2    Rcpp_0.11.4           reshape_0.8.5        
+[43] reshape2_1.4.1        RJSONIO_1.3-0         rpart_4.1-8          
+[46] setRNG_2013.9-1       splines_3.1.2         stats4_3.1.2         
+[49] stringr_0.6.2         survival_2.37-7       SVGAnnotation_0.93-1 
+[52] tools_3.1.2           vsn_3.32.0            XML_3.98-1.1         
+[55] xtable_1.7-4          XVector_0.4.0         zlibbioc_1.10.0 
